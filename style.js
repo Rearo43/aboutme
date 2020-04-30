@@ -16,34 +16,43 @@ function age(){
 age();
 
 ///Sport
-var sport = prompt("Did I play Division I basketball?").toLowerCase();
-
-if (sport === "yes"){
-    confirm("YOU ARE CORRECT! I played at Central Connecticut State University on a full ride scholarship.")
-} else if (sport === "no") {
-    confirm("Wrong, I got a full ride to Central Connecticut State University.")
+function sport(){
+    var sport = prompt("Did I play Division I basketball?").toLowerCase();
+    
+    if (sport === "yes"){
+        confirm("YOU ARE CORRECT! I played at Central Connecticut State University on a full ride scholarship.")
+    } else if (sport === "no") {
+        confirm("Wrong, I got a full ride to Central Connecticut State University.")
+    }
 }
 
+sport();
 
 ///Dad
-var dad = prompt("Did my dad play in the NFL?").toLowerCase();
-
-if (dad === "yes") {
-    confirm("YOU ARE CORRECT! 10th overall pick in '92 to the Seahawks.")
-} else if (dad === "no") {
-    confirm("Sorry, he actually did for the Seahawks and the Lions.")
+function dad(){
+    var dad = prompt("Did my dad play in the NFL?").toLowerCase();
+    
+    if (dad === "yes") {
+        confirm("YOU ARE CORRECT! 10th overall pick in '92 to the Seahawks.")
+    } else if (dad === "no") {
+        confirm("Sorry, he actually did for the Seahawks and the Lions.")
+    }
 }
 
+dad();
 
 ///Brother
-var bro = prompt("Do I have three brother?").toLowerCase();
-
-if (bro === "no") {
-    confirm("YOU ARE CORRECT!")
-} else if (bro === "yes") {
-    confirm("Sorry, I only have two brothers.")
+function brother(){
+    var bro = prompt("Do I have three brother?").toLowerCase();
+    
+    if (bro === "no") {
+        confirm("YOU ARE CORRECT!")
+    } else if (bro === "yes") {
+        confirm("Sorry, I only have two brothers.")
+    }
 }
 
+brother();
 
 ///Coding
 var coding = prompt("Have I been coding for two years?").toLowerCase();
