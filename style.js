@@ -55,14 +55,17 @@ function brother(){
 brother();
 
 ///Coding
-var coding = prompt("Have I been coding for two years?").toLowerCase();
-
-if (coding === "no") {
-    confirm("YOU ARE CORRECT!")
-} else if (coding === "yes") {
-    confirm("Sorry, I just started in March 2020.")
+function code(){
+    var coding = prompt("Have I been coding for two years?").toLowerCase();
+    
+    if (coding === "no") {
+        confirm("YOU ARE CORRECT!")
+    } else if (coding === "yes") {
+        confirm("Sorry, I just started in March 2020.")
+    }
 }
 
+code();
 
 ///Birthday
 var bday = prompt("Was I born on March 19, 1997?").toLowerCase();
