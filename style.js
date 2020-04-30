@@ -1,16 +1,19 @@
 "use strict";
 
 ///Age
-var answers = prompt("How old are you?");
-
-if (answers > 23) {
-    confirm("Because you're " + answers + ", you are older than me.")
-} else if (answers < 23){
-    confirm("Because you're " + answers + ", you are younger than me.")
-} else if (answers === 23){
-    confirm("Because you're " + answers + ", we are the same age.")
+function age(){
+    var answers = prompt("How old are you?");
+    
+    if (answers > 23) {
+        confirm("Because you're " + answers + ", you are older than me.")
+    } else if (answers < 23){
+        confirm("Because you're " + answers + ", you are younger than me.")
+    } else if (answers === 23){
+        confirm("Because you're " + answers + ", we are the same age.")
+    }
 }
 
+age();
 
 ///Sport
 var sport = prompt("Did I play Division I basketball?").toLowerCase();
