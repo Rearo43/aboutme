@@ -60,7 +60,7 @@ if (bday === "yes") {
 }
 
 
-/Favorite Number
+// Favorite Number
 for(i = 0; i < 4; i++){
 
     var answer = prompt("Can you guess my favorite number? Here's a hint it's between 10 and 52.");
