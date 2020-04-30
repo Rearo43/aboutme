@@ -81,24 +81,28 @@ function bDay(){
 bDay();
 
 ///Favorite Number
-for(i = 0; i < 4; i++){
-
-    var answer = prompt("Can you guess my favorite number? Here's a hint it's between 10 and 52.");
-
-    var i;
-    var b = (answer > 33 && answer < 43)
-    var c = (answer < 53 && answer > 43)
-
-        if (answer === "43") {
-            confirm("YOU GOT IT! 43 is my jersey number!")
-            break;
-        } else if (answer = b){
-            confirm("Almost, you guessed within 10 LESS than my number.")
-        } else if (answer = c){
-            confirm("Almost, you guessed is within 10 MORE than my number.")
-        } else {
-            confirm("Please try again, you guessed wrong.")
-        } 
-        
+function number(){
+    for(i = 0; i < 4; i++){
+    
+        var answer = prompt("Can you guess my favorite number? Here's a hint it's between 10 and 52.");
+    
+        var i;
+        var b = (answer > 33 && answer < 43)
+        var c = (answer < 53 && answer > 43)
+    
+            if (answer === "43") {
+                confirm("YOU GOT IT! 43 is my jersey number!")
+                break;
+            } else if (answer = b){
+                confirm("Almost, you guessed within 10 LESS than my number.")
+            } else if (answer = c){
+                confirm("Almost, you guessed is within 10 MORE than my number.")
+            } else {
+                confirm("Please try again, you guessed wrong.")
+            } 
+            
+    }
 }
-        confirm("The correct answer is 43, that's my jersey number!")
+
+number();
+//        confirm("The correct answer is 43, that's my jersey number!")
