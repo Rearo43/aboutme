@@ -1,3 +1,5 @@
+"use strict";
+
 ///Age
 var answers = prompt("How old are you?");
 
@@ -11,41 +13,41 @@ if (answers > 23) {
 
 
 ///Sport
-var bday = prompt("Did I play Division I basketball?").toLowerCase();
+var sport = prompt("Did I play Division I basketball?").toLowerCase();
 
-if (bday === "yes") {
-    confirm("YOU ARE CORRECT!")
-} else if (bday === "no") {
-    confirm("Sorry, I did with a fullride athletic scholarship.")
+if (sport === "yes"){
+    confirm("YOU ARE CORRECT! I played at Central Connecticut State University on a full ride scholarship.")
+} else if (sport === "no") {
+    confirm("Wrong, I got a full ride to Central Connecticut State University.")
 }
 
 
 ///Dad
-var bday = prompt("Did my dad play in the NFL?").toLowerCase();
+var dad = prompt("Did my dad play in the NFL?").toLowerCase();
 
-if (bday === "yes") {
-    confirm("YOU ARE CORRECT!")
-} else if (bday === "no") {
+if (dad === "yes") {
+    confirm("YOU ARE CORRECT! 10th overall pick in '92 to the Seahawks.")
+} else if (dad === "no") {
     confirm("Sorry, he actually did for the Seahawks and the Lions.")
 }
 
 
 ///Brother
-var bday = prompt("Do I have three brother?").toLowerCase();
+var bro = prompt("Do I have three brother?").toLowerCase();
 
-if (bday === "no") {
+if (bro === "no") {
     confirm("YOU ARE CORRECT!")
-} else if (bday === "yes") {
+} else if (bro === "yes") {
     confirm("Sorry, I only have two brothers.")
 }
 
 
 ///Coding
-var bday = prompt("Have I been coding for two years?").toLowerCase();
+var coding = prompt("Have I been coding for two years?").toLowerCase();
 
-if (bday === "no") {
+if (coding === "no") {
     confirm("YOU ARE CORRECT!")
-} else if (bday === "yes") {
+} else if (coding === "yes") {
     confirm("Sorry, I just started in March 2020.")
 }
 
@@ -60,7 +62,7 @@ if (bday === "yes") {
 }
 
 
-// Favorite Number
+///Favorite Number
 for(i = 0; i < 4; i++){
 
     var answer = prompt("Can you guess my favorite number? Here's a hint it's between 10 and 52.");
@@ -71,12 +73,14 @@ for(i = 0; i < 4; i++){
 
         if (answer === "43") {
             confirm("YOU GOT IT! 43 is my jersey number!")
+            break;
         } else if (answer = b){
             confirm("Almost, you guessed within 10 LESS than my number.")
         } else if (answer = c){
             confirm("Almost, you guessed is within 10 MORE than my number.")
         } else {
             confirm("Please try again, you guessed wrong.")
-        }
+        } 
+        
 }
-            confirm("The correct answer is 43, that's my jersey number!")
+        confirm("The correct answer is 43, that's my jersey number!")
