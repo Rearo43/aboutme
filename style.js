@@ -68,14 +68,17 @@ function code(){
 code();
 
 ///Birthday
-var bday = prompt("Was I born on March 19, 1997?").toLowerCase();
-
-if (bday === "yes") {
-    confirm("YOU ARE CORRECT!")
-} else if (bday === "no") {
-    confirm("Sorry, I was born on March 19, 1997.")
+function bDay(){
+    var bday = prompt("Was I born on March 19, 1997?").toLowerCase();
+    
+    if (bday === "yes") {
+        confirm("YOU ARE CORRECT!")
+    } else if (bday === "no") {
+        confirm("Sorry, I was born on March 19, 1997.")
+    }
 }
 
+bDay();
 
 ///Favorite Number
 for(i = 0; i < 4; i++){
