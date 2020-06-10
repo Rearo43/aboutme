@@ -33,12 +33,12 @@ if (dad === "yes") {
 
 
 ///Brother
-var bro = prompt("Do I have three brother?").toLowerCase();
+var bro = prompt("Did I break one leg?").toLowerCase();
 
 if (bro === "no") {
-    confirm("YOU ARE CORRECT!")
+    confirm("YOU ARE CORRECT! Broke both, bet you didn't expect that!")
 } else if (bro === "yes") {
-    confirm("Sorry, I only have two brothers.")
+    confirm("Sorry, I broke two, haha tricked ya.")
 }
 
 
@@ -84,3 +84,7 @@ for(i = 0; i < 4; i++){
         
 }
         confirm("The correct answer is 43, that's my jersey number!")
+
+
+
+        
