@@ -1,0 +1,25 @@
+header{
+    border: 2px solid black;
+    height: 200px;
+
+}
+
+nav{
+    border: 2px solid green;
+    height: 100px;
+
+}
+
+main{
+    border: 2px solid red;
+    height: 500px;
+
+}
+
+footer{
+    border: 2px solid yellow;
+    height: 100px;
+
+}
+
+
