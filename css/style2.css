@@ -1,7 +1,26 @@
+header, nav, main, footer, p{
+    margin: 20px;
+
+}
 header{
     border: 2px solid black;
-    height: 200px;
+    /* height: 250px; */
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
 
+}
+
+h1{
+    margin: 40px;
+    font-size: 1.25em;
+    font-size-adjust: 0.5;
+}
+
+p{
+    height: 100px;
+    width: 450px;
+    /* border: 2px solid purple; */
+    margin: 20px auto;
 }
 
 nav{

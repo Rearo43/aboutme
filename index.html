@@ -3,15 +3,18 @@
     <head>
         <title>ReaganRoberts Dev</title>
         <link href="css/reset.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Work+Sans&display=swap" rel="stylesheet">
         <link href="css/style2.css" rel="stylesheet" />
     </head>
     <body>
         <header>
-            <h1>$(company.yours).append(reaganRoberts)</h1>
-
-            <select class="company" name="company" placeholder="name">
-                <option>Select Your Company Name</option>
+            <h1>$(company.<strong class="yours">yours</strong>).append(reaganRoberts)</h1>
+            
+            <select id="company" name="company" multiple>
+                <option disabled>Select Your Company Name</option>
             </select>
+            <p class="pTag">Why I want to work for you!</p>
+
         </header>
         <nav></nav>
         <main></main>
@@ -20,3 +23,6 @@
         <script src="js/app.js"></script>
     </body>
 </html>
+
+
+

@@ -3,7 +3,7 @@
         "name": "Apple",
         "ceo": "nameOfCEO or hiringStaff",
         "value": "coreValues",
-        "why": "why do I want to work there answer"
+        "why": "I've been a long time lover of all things Apple since day one."
     
     
     },
@@ -11,7 +11,7 @@
         "name": "Microsoft",
         "ceo": "nameOfCEO or hiringStaff",
         "value": "coreValues",
-        "why": "why do I want to work there answer"
+        "why": "Being from Redmond, WA I grew up idolizing Microsoft."
     
     
     },
@@ -19,7 +19,7 @@
         "name": "Tesla",
         "ceo": "nameOfCEO or hiringStaff",
         "value": "coreValues",
-        "why": "why do I want to work there answer"
+        "why": "Teslas ground breaking technology is what inspired me to become a developer."
     
     
     },
@@ -27,15 +27,23 @@
         "name": "Start-Up",
         "ceo": "nameOfCEO or hiringStaff",
         "value": "coreValues",
-        "why": "why do I want to work there answer"
+        "why": "I have a passion for new, unique adventures. I'm ready to work smarter and harder with an intensity that parallels your team."
     
     
     },
     {
-        "name": "Your Company",
+        "name": "yourCompany",
         "ceo": "nameOfCEO or hiringStaff",
         "value": "coreValues",
-        "why": "why do I want to work there answer"
+        "why": "You don't see your company listed? Scroll down to the bottom to email me. I'd love to interview with your company."
+    
+    
+    },
+    {
+        "name": "Freelance",
+        "ceo": "nameOfCEO or hiringStaff",
+        "value": "coreValues",
+        "why": "I'm hear to listen to your every wish, concern and question. While making your app or site, I conduct frequently updates and check ins to ensure, your dream ends up on the screen."
     
     
     }
